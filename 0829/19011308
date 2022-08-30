@@ -15,3 +15,7 @@ def factorial(num):
 numero = eval(input("Escribe un número: ")) 
 
 print("El factorial de", numero, "es", factorial(numero))
+
+Nombre: Fuentes Soto Alan Alexander
+No. Control: 19011308
+Calificación: XXX
