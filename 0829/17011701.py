@@ -4,7 +4,9 @@
 # :indentSize=4:tabSize=8:noTabs=true:
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
-# Calificación: 100
+# Nombre: Christopher Daniel Esparza Contreras
+# No. Control: 17011701
+# Calificación: XXX
 
 def factorial(n):
     if n == 0:
