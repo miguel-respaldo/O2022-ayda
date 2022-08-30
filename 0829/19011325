@@ -1,0 +1,28 @@
+# :indentSize=4:tabSize=8:noTabs=true:
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Nombre: Samuel Rodriguez Garcia
+# No. Control: 19011325
+# Calificación: XXX
+
+num= eval(input("Escribe un número: "))
+def factorial(num): 
+    
+   
+    if num < 0: 
+        print("Factorial negativa no existe")
+        
+
+    elif num == 0: 
+        return 1
+        
+    else: 
+        fact = 1
+        while(num > 1): 
+            fact *= num 
+            num -= 1
+        return fact 
+
+
+
+print(" El Factorial ",num,"es", factorial(num)) 
