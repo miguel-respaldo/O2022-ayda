@@ -4,6 +4,7 @@
 # :indentSize=4:tabSize=8:noTabs=true:
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
+# Calificación: 100
 
 def factorial(n):
     if n == 0:
