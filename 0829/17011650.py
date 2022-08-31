@@ -14,7 +14,7 @@ factorial = 1
 print("Ingresa un numero positivo: ")
 numero = int(input())
 
-if numero < 0:
+if numero < 0 or numero == 0:
     print("ERROR!")
     print("No existe numeros negativos en el factorial")
 else:
