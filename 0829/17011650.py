@@ -14,11 +14,11 @@ factorial = 1
 print("Ingresa un numero positivo: ")
 numero = int(input())
 
-if numero < 0:
+if numero < 0 or numero == 0:
     print("ERROR!")
-    print("No existe numeros negativos en el factorial")
+    print("No existe el cero y numeros negativos en el factorial")
 else:
     for i in range(1, numero+1):       
-        sum = factorial = factorial * i
-    print("El factorial es: ", sum)
+        factorial = factorial * i
+    print("El factorial es: ", factorial)
 
