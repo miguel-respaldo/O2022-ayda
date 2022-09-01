@@ -1,3 +1,6 @@
+#Alumno: Rodriguez Pacheco Jose Ruben
+#Numero De Control: 19011256
+#Calificacion:
 print("Ingrese un numero ")
 num = int(input())
 facto = 1
