@@ -11,7 +11,7 @@
 def factorial(f):
     if f<0:
         return 0
-    elif f==0 or f==1:
+    if f==0 or f==1:
         return 1
     else:
         fact=1
