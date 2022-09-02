@@ -20,5 +20,5 @@ if numero < 0 or numero == 0:
 else:
     for i in range(1, numero+1):       
         factorial = factorial * i
-    print("El factorial ",numero ," es: ", factorial)
+    print("El factorial de ",numero ," es: ", factorial)
 
