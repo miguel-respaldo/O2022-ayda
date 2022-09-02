@@ -1,3 +1,9 @@
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Nombre: Henrnandez Uribe Nestor Eduardo
+# No. Control: 18011339
+# Calificación: XXX
+
 def factorial(num):
     factor = 1
     while(num > 1):
