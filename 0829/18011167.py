@@ -16,7 +16,7 @@ def factorial(f):
     else:
         facto=1
         while(f>1):
-            fact*=f
+            facto*=f
             f-=1
         return facto
 
