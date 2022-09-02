@@ -8,14 +8,12 @@
 # No. Control: 18012180
 # Calificación: XXX
 def factorial(n):
-    if n<0:
-        resultado ==-1
+    resultado = 0
     for i in range(0, n+1):
-        resultado = 0
         if i==0 or i==1:
             resultado = 1
         elif i > 1:
-            resultado = i * factorial(n-1)
+            resultado = i * resultado
     return resultado
 
 x = int(input("Ingrese un numero: "))
