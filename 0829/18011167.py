@@ -14,11 +14,11 @@ def factorial(f):
     if f==0 or f==1:
         return 1
     else:
-        fact=1
+        facto=1
         while(f>1):
             fact*=f
             f-=1
-        return fact
+        return facto
 
 num=eval(input("Ingresa un numero: "))
 print("El factorial de ",num,"es",
