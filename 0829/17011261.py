@@ -8,7 +8,6 @@ Calificación:XXX
 def factorial(n):
     if n>1:
         n = n * factorial(n-1)
-        print("fac ",n)
     return n
     
 numero = eval(input("Escribe un numero: "))
