@@ -11,4 +11,7 @@ def fact(n):
 
 print("ingrese un número entero positivo")
 m = int(input())
-print(fact(m))
+if(m >= 1):
+    print(fact(m))
+else:
+    raise Exception("Unicamente enteros positivos")
