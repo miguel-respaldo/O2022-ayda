@@ -8,18 +8,18 @@
 # No. Control: 19011234
 # Calificación: XXX
 
-def factorial(n):
+def factorial(n): #creo la funcion factorial que recibe un parametro el cual es n
 
-    fact= 1
+    fact= 1 #inicializo la variable fact en 1 para que pueda multiplicarse
 
-    for i in range (1,n+1):
-        fact = fact*i
+    for i in range (1,n+1): #Creo el ciclo for con el rango de 1 al numero indicado + 1 para que pueda tomar en cuenta el numero indicado
+        fact = fact*i #Guardo la multiplicacion del fact * i en la misma variable fact, para que pueda ir acumulando el resultado
             
-    return fact
+    return fact #Guardo el resultado retornando el resultado en "fact"
 
-x = int(input("Digite un numero: "))
+x = int(input("Digite un numero: ")) #guardo en la variable "x" el numero que el usuario digito
 
-resultado = factorial(x)
+resultado = factorial(x) #guardo el resultado que la funcion realizo en la variable "resultado"
 
-print(resultado)
+print(resultado) #Imprimo el resultado de la funcion en pantalla
 
