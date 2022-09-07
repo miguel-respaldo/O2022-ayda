@@ -10,7 +10,7 @@ def factorial(num): #creo la funcion factorial que recibe un parametro el cual e
     fact= 1 #inicializo la variable fact en 1 para que pueda multiplicarse 
 
     for i in range (1,num+1): #Creo el ciclo for con el rango de 1 al numero indicado + 1 para que pueda tomar el numero indicado
-        fact = fact*i #Guardo la multiplicacion del fact * el iterador en la misma variable para que pueda ir acumulando el resultado
+        fact = fact*i #Guardo la multiplicacion del fact * i en la misma variable para que pueda ir acumulando el resultado
     return fact #Guardo el resultado retornando el resultado en "fact"
 
 
