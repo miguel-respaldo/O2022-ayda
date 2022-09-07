@@ -15,4 +15,4 @@ def factorial(num): #creo la funcion factorial que recibe un parametro el cual e
 
 
 numero = eval(input("Escribe un número: ")) #guardo en la variable "numero" el numero que el usuario digito
-print("El factorial de", numero, "es", factorial(numero)) #Imprimo el resultado de la funcion en pantalla
+print("El factorial de", numero, "es", factorial(numero)) #Imprimo el resultado de la funcion en pantalla.
