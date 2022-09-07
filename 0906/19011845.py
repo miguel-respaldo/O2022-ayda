@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # vi: set shiftwidth=4 tabstop=8 expandtab:
 #
-# Nombre: Miguel Bernal Marin
-# No. Control: 290
+# Nombre: Maria Guadalupe Garcia Baltazar
+# No. Control: 19011845
 # Calificación: XXX
 
 def factorial(num):
