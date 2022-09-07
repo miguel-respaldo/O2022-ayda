@@ -16,7 +16,6 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
+numero = eval(input("Escribe: un número: "))
 
-
-number = int(input("Calcular factorial de:"))
-print("El factorial de ", number, "es ", factorial(number))
+print("El factorial de ", numero, "es ", factorial(numero))
