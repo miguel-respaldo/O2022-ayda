@@ -4,10 +4,11 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 def factorial(num):
-    resultado = 1
 
     if num < 0:
         return "invalido, porque no existen factorial de negativo"
+
+    resultado = 1
 
     while num > 1:
         resultado *= num
