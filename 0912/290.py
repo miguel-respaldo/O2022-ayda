@@ -6,8 +6,9 @@
 # Calificación: XXX
 
 def fibonacci(num):
+    # Tomando en cuenta el 0 como posición 1
     # Modificar esta parte
-    return num**2
+    return num**2 # y esta linea
 
 
 def main():
