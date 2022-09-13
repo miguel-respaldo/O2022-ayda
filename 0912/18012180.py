@@ -29,7 +29,8 @@ def main():
     numero = eval(input("Escribe un número: "))
     if numero < 0:
         print("No existe la serie fibonacce para numeros negativos.")
-    print("La posición", numero, "de fibonacci es", fibonacci(numero))
+    else :
+        print("La posición", numero, "de fibonacci es", fibonacci(numero))
 
 if __name__ == "__main__":
     main()
