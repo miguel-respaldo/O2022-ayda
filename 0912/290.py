@@ -7,7 +7,7 @@
 
 def fibonacci(num):
     # Modificar esta parte
-    return num**2
+    return num**2 # y esta linea
 
 
 def main():
