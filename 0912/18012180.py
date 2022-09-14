@@ -18,8 +18,7 @@ def fibonacci(num):
     else:
         L = [1,1]
         for i in range(2,num):
-            posicion = L[-1] + L[-2]
-            L.append(posicion)
+            L.append(L[-1] + L[-2])
             L.pop(0)
     return L[-1]
 
