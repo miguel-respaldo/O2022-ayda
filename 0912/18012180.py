@@ -21,7 +21,6 @@ def fibonacci(num):
             posicion = L[-1] + L[-2]
             L.append(posicion)
             L.pop(0)
-    print(L)
     return L[-1]
 
 
