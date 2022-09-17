@@ -12,7 +12,6 @@ def fibonacci(num):
     if i == 0:
         pass
     print(n1, end=", ")
-
     if i == 1:
         pass
     print(n2, end=", ")
