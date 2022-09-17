@@ -22,7 +22,7 @@ def fibonacci(num):
       n1 = n2             
       n2 = res
       i+=1                #This is my count that will increment my variable "i"
-      print(n2, end=",")  #show the fibonacci result got
+      print(n2, end=", ")  #show the fibonacci result got
     return res 
 
 def main():
