@@ -2,7 +2,7 @@
 # vi: set shiftwidth=4 tabstop=8 expandtab:
 #
 # Nombre: Salvador de Jesus Dueñas Muñiz
-# No. Control: 123456789
+# No. Control: 19011235
 # Calificación: XXX
 
 def fibonacci(num):
