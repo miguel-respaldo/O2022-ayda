@@ -17,11 +17,11 @@ def fibonacci(num):
         pass
     print(n2, end=", ")
 
-    while i <= num:       # var "i" will make a loop to reach the limit of "num"
-      res = n1 + n2        
-      n1 = n2             
+    while i <= num:        #var "i" will make a loop to reach the limit of "num"
+      res = n1 + n2
+      n1 = n2              
       n2 = res
-      i+=1                #This is my count that will increment my variable "i"
+      i+=1                 #This is my count that will increment my variable "i"
       print(n2, end=", ")  #show the fibonacci result got
     return res 
 
