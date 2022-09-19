@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # vi: set shiftwidth=4 tabstop=8 expandtab:
 #
-# Nombre: Nombre del Estudiante
+# Nombre: Luis Fernando Rubio Zambrano
 # No. Control: 123456789
 # Calificación: XXX
 
