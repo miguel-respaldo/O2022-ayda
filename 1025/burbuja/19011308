@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+# vi: set shiftwidth=4 tabstop=8 expandtab:
+#
+# Nombre: Fuentes Soto Alan Alexander
+# No. Control: 19011308
+# Calificación: XXX
+
+def ordburbuja(array):
+    num = len(array)
+
+    for i in range(num-1):       
+        for j in range(num-1-i): 
+            if array[j] > array[j+1]:
+                array[j], array[j+1] = array[j+1], array[j]
+
+items = [10, 5, 9, 7, 11]
+ordburbuja(items)
+
+print(items)
