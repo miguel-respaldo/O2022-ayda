@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+# vi: set shiftwidth=4 tabstop=8 expandtab:
+#
+# Nombre: Fuentes Soto Alan Alexander
+# No. Control: 19011308
+# Calificación: XXX
+
+def ShowList(List, lon):
+	inorder=""
+	for i in range(0,lon):
+		inorder+=str(List[i])+" "
+	print(inorder)   
+	
+Array = [7,1,9,8,5,4,10];
+
+for i in range(1,len(Array)):
+	clave = Array[i]
+	j = i-1
+	while (j>=0 and Array[j] > clave):
+		Array[j+1] = Array[j]
+		j = j-1
+	Array[j+1] = clave
+ShowList(Array, len(Array)) 
