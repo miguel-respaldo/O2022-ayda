@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+# vi: set shiftwidth=4 tabstop=8 expandtab:
+#
+# Nombre: Luis Antonio Hernandez Ventura
+# No. Control: 19011635
+# Calificación: XXX
+
+
+def insercion(A):
+    for i in range(len(A)):
+        for j in range(i,0,-1):
+            if(A[j-1] > A[j]):
+                aux=A[j];
+                A[j]=A[j-1];
+                A[j-1]=aux;
+    print (A);
+
+
+A=[6,5,3,1,8,7,2,4];
+print (A);
+insercion(A);
