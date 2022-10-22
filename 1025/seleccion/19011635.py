@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+# vi: set shiftwidth=4 tabstop=8 expandtab:
+#
+# Nombre: Luis Antonio Hernandez Ventura
+# No. Control: 19011635
+# Calificación: XXX
+
+def seleccion(A):
+    for i in range(len(A)):
+        minimo=i;
+        for j in range(i,len(A)):
+            if(A[j] < A[minimo]):
+                minimo=j;
+        if(minimo != i):
+            aux=A[i];
+            A[i]=A[minimo];
+            A[minimo]=aux;
+    print (A);
+ 
+
+A=[6,5,3,1,8,7,2,4];
+print (A)
+seleccion(A);
