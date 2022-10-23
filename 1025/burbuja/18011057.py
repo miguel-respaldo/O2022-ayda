@@ -7,14 +7,15 @@
 
 import random
 
-def insertion_sort(array):
-    for indice, valor in enumerate(array[1:]):
-        temp = indice
-        while indice >=0 and valor < array[indice]:
-            array[indice + 1] = array[indice]
-            indice -= 1
-        if indice != temp:
-            array[indice + 1] = valor
+def bubble_sort(array):
+    length = len(array)
+    for i in range(length -1):
+        swapped = False
+        for j in range(length - 1 - i):
+            if array[j] > array[j+1]:
+                swapped = True
+                array[j], array[j+1] = array[j+1], array[j]
+        if not swapped: break
     return array
 
 def main():
@@ -22,7 +23,7 @@ def main():
     lenght = int(input() or "20")
     array = [random.randint(1,100) for _ in range(lenght)]
     print("Arreglo sin ordenar:\n", array)
-    orderedArray = insertion_sort(array)
+    orderedArray = bubble_sort(array)
     print("Arreglo ordenado:\n", orderedArray)
 
 if __name__ == "__main__":
