@@ -5,6 +5,8 @@
 # No. Control: 18012180
 # Calificación: XXX
 
+import random
+
 def burbuja(list):
     """
     Metodo de ordenamiento burbuja
@@ -24,7 +26,23 @@ def burbuja(list):
 
 
 def main():
-    print(burbuja([3, 2, 1]))
+    lista =[]
+    print("Ingrese la longitud de la lista:")
+    length = int(input())
+    print("Ingrese el rango de numeros:")
+    print("Desde:")
+    inicio = int(input())
+    print("Hasta:")
+    fin = int(input())
+
+    for i in range(length):
+        r = random.randint(inicio, fin)
+        lista.append(r)
+
+    print("Lista desordenada:")
+    print(lista)
+    print("Lista ordenada:")
+    print(burbuja(lista))
 
 
 if __name__ == "__main__":
