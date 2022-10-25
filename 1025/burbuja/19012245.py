@@ -5,31 +5,23 @@
 # No. Control: 19012245
 # Calificación: XXX
 
-def seleccion(arreglo):
-    longitud = len(arreglo)
-    for i in range(longitud-1):
-        for j in range(i+1, longitud):
-            if arreglo[i] > arreglo[j]:
-                # Intercambiar
-                arreglo[i], arreglo[j] = arreglo[j], arreglo[i]
+def burbuja(num):
+    tamano=len(num)
+    for _ in range(0,tamano):
+        for j in range(0,tamano-1):
+            if num[j]>num[j+1]:
+                aux=num[j]
+                num[j]=num[j+1]
+                num[j+1]=aux
+    return num
 
+def numeros(num):
+    tam=len(num)
+    print("Forma acendente:")
+    for i in range(0,tam):
+        a= num[i]
+        print(a) 
 
-def seleccion_descendente(arreglo):
-    longitud = len(arreglo)
-    for i in range(longitud-1):
-        for j in range(i+1, longitud):
-            if arreglo[i] < arreglo[j]:
-                arreglo[i], arreglo[j] = arreglo[j], arreglo[i]
-
-
-numeros = [23, 25, 30, 1, 28, 11, 96, 2, 3, 1]
-
-
-print("Arreglo de números original:")
-print(numeros)
-seleccion(numeros)
-print("Arreglo de números ordenado: ")
-print(numeros)
-seleccion_descendente(numeros)
-print("Arreglo de números ordenado descendente: ")
-print(numeros)
+num= [54,26,93,17,77,31,44,55,20]
+num=burbuja(num)
+numeros(num)
