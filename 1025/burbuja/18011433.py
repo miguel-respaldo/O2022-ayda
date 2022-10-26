@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # vi: set shiftwidth=4 tabstop=8 expandtab:
 #
-# Nombre: Grecia Katya Alexandra Muñoz Cabrera
+# Nombre: Muñoz Cabrera Grecia Katya Alexandra
 # No. Control: 18011433
 # Calificación: XXX
 
@@ -16,11 +16,12 @@ def bubbleSort(arr):
         for j in range(0, n - i - 1):
              
             # el rango del arreglo es de 0 hasta n-i-1
-            # intercambia los elementos si el elemento encontrado es mayor al adyacente  
+            # intercambia los elementos si el elemento encontrado es mayor al adyacente.
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
+
 # numeros agregados al arreglo
-arr = [ 23, 1, 10, 2 ]
+arr = [ 20, 5, 13, 7 ]
 bubbleSort(arr)
  
 print("El arreglo ordenado es:")
