@@ -35,8 +35,8 @@ def heapsort(arr):
  
 def main():
     arr = [33,35,42,10,7,8,14,19,48]
-    heapsort(arr)
-    print(arr)
+    resultado = heapsort(arr)
+    print(resultado)
 
 
 if __name__ == "__main__":
