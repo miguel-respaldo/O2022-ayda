@@ -26,6 +26,6 @@ arreglo = [7,2,1,6,8,5,3,4]
 inicio = 0
 final = len(arreglo) - 1
 
-print("Unsorted Array: ", arreglo)
+print("Arreglo desordenado: ", arreglo)
 quickSort(arreglo, inicio, final)
-print("Sorted Array: ", arreglo)
+print("Arreglo ordenado: ", arreglo)
